@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Page</title>
+
+    <!-- Iconscout css-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- link for css -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="container-login">
+        <form class="forms" action="navbar.html">
+       
+            <div class="form login" id="loginForm">
+                <span class="title">Login</span>
+                
+                <div class="input-field">
+                    <input type="email" id="email" name="email" placeholder="Email-Id" required>
+                    <i class="uil uil-envelope"></i>
+                </div>    
+                
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Password" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+                       
+                    
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                           <input type="checkbox" id="logCheck"> 
+                           <label for="logCheck" class="text">Remember Me</label>
+                        </div>
+                        <a href="#" class="text">Forget Password?</a>
+                    </div>
+                    <div class="input-field button">
+                        <!--<button id="login-button">Login</button>-->
+                       <input type="submit" value="Login" id="login-button">
+                    </div>
+                
+
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="signup.html" class="text signup-link">Sign Up now</a>
+                    </span>
+                </div>
+                </div>
+    
+                </form>
+            </div>
+           
+            <script src="login.js"></script>
+            </body>
+            </html>
+        

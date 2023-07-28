@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Iconscout css-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- link for css -->
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container-signup">
+        <form class="forms" action="navbar.html">
+            <div class="form login-signup">
+                <!-- Registration Title -->
+                <span class="title">Registration</span>
+                <!-- Signup Form -->
+                <form id="signupForm" action="#">
+                    <!-- Input field for Username -->
+                    <div class="input-field">
+                        <input type="text" id="name" name="name" placeholder="Username" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+
+                    <!-- Input field for Phone Number -->
+                    <div class="input-field">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        <i class="uil uil-phone"></i>
+                    </div>
+        
+                    <!-- Input field for Email -->
+                    <div class="input-field">
+                        <input type="email" id="email" name="email" placeholder="Email-Id" required>
+                        <i class="uil uil-envelope"></i>
+                    </div>
+                    
+                    <!-- Input field for Create Password -->
+                    <div class="input-field">
+                        <input type="password" class="password" name="password" placeholder="Create Password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+        
+                    <!-- Input field for Confirm Password -->
+                    <div class="input-field">
+                        <input type="password" class="password" name="confirmPassword" placeholder="Confirm Password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+        
+                    <!-- Checkbox for Remember Me -->
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                           <input type="checkbox" id="signCheck"> 
+                           <label for="signCheck" class="text">Remember Me</label>
+                        </div>
+                        <!-- Forget Password link (optional) -->
+                        <a href="#" class="text">Forget Password?</a>
+                    </div>
+                    
+                    <!-- Sign Up button -->
+                    <div class="input-field button">
+                        <input type="submit" value="Sign Up">
+                    </div>
+                </form>
+        
+                <!-- Login section -->
+                <div class="login-signup">
+                    <!-- Text for already registered users -->
+                    <span class="text">Already registered?
+                        <!-- Login link -->
+                        <a href="login.html" class="text login-link">Login now</a>
+                    </span>
+                </div>
+                
+            </div>
+            
+        </form>
+    </div>
+    
+    <!-- JavaScript for form submission validation and password visibility toggle -->
+    <script src="signup.js"></script>
+</body>
+</html>
